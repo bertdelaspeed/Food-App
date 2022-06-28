@@ -3,7 +3,7 @@ import 'package:foodpanda_sellers_app/authentication/login.dart';
 import 'package:foodpanda_sellers_app/authentication/register.dart';
 
 class AuthScreen extends StatefulWidget {
-  AuthScreen({Key? key}) : super(key: key);
+  const AuthScreen({Key? key}) : super(key: key);
 
   @override
   State<AuthScreen> createState() => _AuthScreenState();
@@ -41,11 +41,16 @@ class _AuthScreenState extends State<AuthScreen> {
               indicatorColor: Colors.white,
             ),
           ),
-          body: TabBarView(
-            children: [
-              LoginScreen(),
-              RegisterScreen(),
-            ],
+          body: Container(
+            decoration: const BoxDecoration(
+              color: Colors.white10,
+            ),
+            child: TabBarView(
+              children: [
+                LoginScreen(),
+                RegisterScreen(),
+              ],
+            ),
           ),
         ));
   }
