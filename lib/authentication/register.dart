@@ -186,7 +186,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
         .set({
       'sellerUid': currentUser.uid,
       'sellerEmail': currentUser.email,
-      'SellerName': nameController.text.trim(),
+      'sellerName': nameController.text.trim(),
+      'sellerAvatarUrl': sellerImageUrl,
       'phone': phoneController.text.trim(),
       'address': locationController.text.trim(),
       'status': 'approved',
