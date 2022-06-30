@@ -14,6 +14,8 @@ class _LoginScreenState extends State<LoginScreen> {
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
 
+  formValidation() {}
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -49,7 +51,9 @@ class _LoginScreenState extends State<LoginScreen> {
                     primary: Colors.green[500],
                     padding: EdgeInsets.symmetric(horizontal: 40, vertical: 10),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    formValidation();
+                  },
                   child: const Text(
                     'Login',
                   ),

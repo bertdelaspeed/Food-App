@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1039331770597",
+    "project_id": "foodapp-1f485",
+    "storage_bucket": "foodapp-1f485.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039331770597:android:b86d3a5ceec38a704b940c",
+        "android_client_info": {
+          "package_name": "com.bertdelaspeed.sellersapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039331770597-0vs0if5ese7t50e4tqnkq0kgjv95pqm8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDueW1mfHY0IgnPK-v6py9XZ6HfF3fbYVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039331770597-0vs0if5ese7t50e4tqnkq0kgjv95pqm8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
